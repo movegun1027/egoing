@@ -1,3 +1,5 @@
+This file is purposed to learn github
+
 test first commit
 
 test cmd
