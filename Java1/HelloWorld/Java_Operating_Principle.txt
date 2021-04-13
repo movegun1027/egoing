@@ -1,0 +1,7 @@
+Java Source code *.java -> Compile
+
+-> Java Application *.class -> Run
+
+-> Java Virtual Machine -> Run
+
+-> Computer
