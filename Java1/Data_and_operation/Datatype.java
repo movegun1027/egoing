@@ -2,7 +2,7 @@ public class Datatype {
 	
 	public static void main(String[] args) {
 		
-		// sysout ctrl+space -> System.out.println()
+		// sysout+ctrl+space -> System.out.println()
 		
 		System.out.println(6); // Number
 		System.out.println("six"); // String
