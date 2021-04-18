@@ -11,8 +11,8 @@ public class StringApp {
 		
 		// new line
 		System.out.println("Hello "
-				+ "World"); // ¡ŸπŸ≤ﬁ¿Ã æ»µ 
-		System.out.println("Hello \nWorld"); // ¡ŸπŸ≤ﬁ¿Ã µ 
+				+ "World"); // not new line
+		System.out.println("Hello \nWorld"); // new line
 		
 		// escape
 //		System.out.println("Hello "World"); // error
