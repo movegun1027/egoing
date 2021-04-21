@@ -1,0 +1,11 @@
+- Run 버튼 옆에 화살표 클릭
+
+1. Run Configuration
+- 각각의 Main Classd의 Arguments 값을 설정 가능
+- 띄어쓰기 별로 따로 인식하니 같은 값으로 묶기 위해선 "xxx yyy zzz" 식으로 묶음
+- 실행 이름을 변경 가능
+- Duplicate 하여 같은 class에 인자값만 다르게 만들 수 있음
+
+2. Organize Favorite
+- 자주 실행하는 Main Class를 지정 가능
+- 지정한 class 들이 최상단에 뜸
