@@ -1,0 +1,24 @@
+Compile
+
+1. cmd 창에 java or javac 라고 입력했을 때 실제 실행되는 파일위치
+
+- program file / java / jdk / bin / java.exe or javac.exe
+
+
+2. java 실행파일이 있는 위치가 아닌데 실행되는 이유
+
+- 고급 시스템 설정 -> 고급 -> 환경변수에서 '사용자 변수' 또는 '시스템 변수'에 path 변수 중에 1번에서 언급한 위치가 지정되어 있기 때문
+
+- window 기준 cmd 창에 java 또는 javac 라고 명령어를 입력 시 윈도우는 현재 디렉토리를 찾은 후, 없으면 위에 언급한 path에 가서 지정 파일을 찾는다. path에도 없으면 찾을 수 없다고 나옴
+
+3. javac / java 의 version이 다를 때 해결책
+
+- https://blog.naver.com/PostView.nhn?blogId=94dglee&logNo=222319848998&categoryNo=9&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=&from=postList&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=1
+
+개인 블로그에 정리해서 올려놓음
+
+4. class 파일과 eclipse project에 jdk version이 다를 때 해결책
+
+- https://blog.naver.com/PostView.nhn?blogId=94dglee&logNo=222319874273&categoryNo=9&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=1
+
+개인 블로그에 정리해서 올려놓음

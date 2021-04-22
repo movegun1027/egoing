@@ -1,0 +1,12 @@
+eclipse를 쓰지 않고 compile 및 실행
+
+1. program.java -> .class로 compile -> program.class 실행
+
+- 기본적인 compile 및 실행
+
+3. OKJavaGoInHome.java -> .class로 compile
+
+- import 된 package가 있는데 어떻게 같이 compile 하는가?
+
+2. OKJavaGoInHomeInput.java -> .class로 compile -> 실행할 때 
+args로 입력값을 어떻게 받아야 하는가?
