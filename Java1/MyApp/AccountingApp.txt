@@ -1,0 +1,8 @@
+
+고정된 숫자를 변수로 한번에 바꾸기 (in eclipse)
+
+- 바꿀 숫자를 선택 후 Refactor -> Extract Local Variable 로 변수 생성
+
+다른 컴퓨터에서 java vm을 신경 안쓰고 실행시키고 싶을때
+
+- launch4j 같은 소프트웨어로 사용하면 program과 java vm까지 내장되기 때문에 가능함
