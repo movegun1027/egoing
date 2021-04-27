@@ -6,3 +6,26 @@
 다른 컴퓨터에서 java vm을 신경 안쓰고 실행시키고 싶을때
 
 - launch4j 같은 소프트웨어로 사용하면 program과 java vm까지 내장되기 때문에 가능함
+
+
+Method : 서로 연관된 코드를 그룹핑하여 이름을 붙힌 정리정돈의 상자
+
+만드는 방법
+- 블락된 코드 오른쪽 클릭 -> Refactor -> Extract method (alt shift m)
+
+지역변수를 전역변수로 바꾸는 법
+- Refactor(alt shift t) -> convert local variable to field -> public체크
+- main method 바깥에 public static type variable; 입력
+
+
+Class : 서로 연관된 변수와 Method를 모아서 그룹핑하여 이름을 붙힌 정리정돈의 상자
+
+windows -> show view -> outline : class 안에 소속된 member 들의 list를 보여줌
+
+class 로 묶었을 때 main class에서 함수 또는 변수를 참조 할 수 없다고 나오면 참조하려는 class에서 method 또는 variable이 private 인지 public 인지 확인해야 함.
+-> public 일 경우 다른 class 에서 사용가능 하지만, private 일 경우 다른 class 에서 사용 불가 함.
+
+Instance : 하나의 class를 복제해서 서로 다른 data 의 값과 서로 같은 method를 가진 복제본을 만드는것
+
+만드는 방법 : Class variable = new class();
+intance를 만들고 사용할 때는 기존 class 의 값들에 static 을 삭제해줘야 사용할 수 있음
