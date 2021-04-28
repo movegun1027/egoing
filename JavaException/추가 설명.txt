@@ -1,0 +1,15 @@
+
+Unchecked Exception
+RuntimeException을 포함한 자식들
+따로 handling 하지 않아도 compile 하는데 지장 없음
+
+Checked Exception
+RuntimeException을 포함하지 않은 Exception들 ex) IOException
+무조건 handling을 해야 compile 가능
+
+Resource : Java가 프로그램 외부에 있는 data에 access할 때 대표적인 외부에 있는 data 들
+ex) DB, Network, File
+
+try 괄호안에 close가 필요한 class를 instace화 시키는 코드를 가져다 놓음 - code 참조
+
+throws : 예외를 다른 곳으로 미뤄서 처리함?
